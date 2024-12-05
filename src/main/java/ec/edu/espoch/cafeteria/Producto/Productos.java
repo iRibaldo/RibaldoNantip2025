@@ -73,6 +73,15 @@ public class Productos {
         System.out.println( segundoProducto+"$"  +  precioProducto2+"$");
     }
     
+    public double detallesProducto1(){
+        
+        return (precioProducto1*0.15);
+    }
+    
+        public double detallesProducto2(){
+        
+        return (precioProducto2*0.15);
+        }
     
     
 

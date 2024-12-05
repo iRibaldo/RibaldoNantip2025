@@ -22,6 +22,9 @@ public class Cafeteria {
         objProducto.setPrecioProducto2(3.00);
         objProducto.imprimir();
         
+        objProducto.detallesProducto1();
+        objProducto.detallesProducto2();
+        
         Clientes objCliente = new Clientes ();
         
         objCliente.setNombreCliente("Ribaldo Lenin Nantip Barre");
